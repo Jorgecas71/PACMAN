@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "header.css";
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+ .p1 {
+   text-align: center;
+  
+}
