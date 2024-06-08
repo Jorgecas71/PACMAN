@@ -13,3 +13,5 @@ Se necesita implementa una cabecera con las dos imágenes proporcionadas.
 Agregar un fantasmita en la escena de 100x100 (px)
 Requisito 4:
 Pacman ya tiene el poder de comerse el fantasma. Cuando el jugador hace clic en el fantasma pacman debería ocupar su lugar y el fantasma desaparecer.
+
+
