@@ -1,14 +1,22 @@
 @import "reset.css";
 @import "header.css";
 
-header {
+main {
   display: flex;
-  justify-content: space-around;
-  align-content: center;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
+ 
 }
- .p1 {
-   text-align: center;
-  
+ .p1 >img {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding-top: 250px;
+}
+
+ .p2 >img {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  padding-top: 230px;
 }
