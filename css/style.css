@@ -1,22 +1,45 @@
 @import "reset.css";
 @import "header.css";
 
-main {
+body {
+  
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
- 
-}
- .p1 >img {
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  padding-top: 250px;
+  height: 100vh;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin: 0;
 }
 
- .p2 >img {
+#scoreboard {
   display: flex;
-  justify-content: center;
-  width: 90px;
-  padding-top: 230px;
+  flex-direction: column;
+  align-items: center;
+  top: 50px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#game-container {
+  padding-top: 250px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+#pacman {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.ghost, .cherry {
+  position: absolute;
+  width: 100px;
+  height: 100px;
 }

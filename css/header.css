@@ -1,11 +1,8 @@
-.container {
+header {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    margin:0 ;
-    padding: 0;
-}
-
-.box >img {
-    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
 }
