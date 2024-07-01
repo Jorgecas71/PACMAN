@@ -1,4 +1,4 @@
-// Variables para la posición del Pacman
+
 let pacmanX = 0;
 let pacmanY = 0;
 
